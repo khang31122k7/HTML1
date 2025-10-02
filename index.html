@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cẩm nang kỹ năng thuyết trình</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin:0; padding:0; color:#333; }
+    header { background:#f5f5dc; padding:15px 40px; display:flex; justify-content:space-between; align-items:center; }
+    header .logo { font-size:24px; font-weight:bold; color:#2d6a4f; }
+    nav a { margin:0 15px; text-decoration:none; color:#333; font-weight:bold; }
+    
+    /* Hero slideshow */
+    .hero { position: relative; height: 400px; overflow: hidden; color: white; text-align: center; }
+    .hero h1 {
+      position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+      font-size: 42px; font-weight: bold; z-index: 2;
+      background: rgba(0,0,0,0.4); padding: 10px 20px; border-radius: 8px;
+    }
+    .slideshow { position: absolute; top:0; left:0; right:0; bottom:0; }
+    .slideshow img {
+      position: absolute; top:0; left:100%; width:100%; height:100%; object-fit: cover;
+      animation: slide 12s infinite; opacity:0;
+    }
+    .slideshow img:nth-child(1) { animation-delay: 0s; }
+    .slideshow img:nth-child(2) { animation-delay: 4s; }
+    .slideshow img:nth-child(3) { animation-delay: 8s; }
+    @keyframes slide {
+      0%   { left:100%; opacity:0; }
+      10%  { left:0; opacity:1; }
+      30%  { left:0; opacity:1; }
+      40%  { left:-100%; opacity:0; }
+      100% { left:-100%; opacity:0; }
+    }
+
+    main { max-width:1000px; margin:auto; padding:30px 20px; }
+    h2 { color:#2d6a4f; margin-top:30px; font-weight:bold; }
+    h3 { color:#40916c; margin-top:20px; font-weight:bold; }
+    p { margin:10px 0; }
+    li { margin-left:20px; }
+    img { max-width:100%; margin:20px 0; border-radius:8px; }
+
+    footer { background:#2d6a4f; color:white; text-align:center; padding:20px; margin-top:40px; }
+    .sidebar { position:fixed; top:40%; right:10px; display:flex; flex-direction:column; gap:10px; }
+    .sidebar a { background:#2d6a4f; color:white; padding:12px; border-radius:50%; text-align:center; font-size:18px; text-decoration:none; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">THPT Trần Hưng Đạo</div>
+    <nav>
+      <a href="#">Trang chủ</a>
+      <a href="#">Giới thiệu</a>
+      <a href="#">Giải pháp</a>
+      <a href="#">Liên hệ</a>
+    </nav>
+  </header>
+
+  <!-- Hero section với slideshow -->
+  <section class="hero">
+    <div class="slideshow">
+      <img src="1.jpg" alt="Ảnh 1">
+      <img src="2.jpg" alt="Ảnh 2">
+      <img src="3.jpg" alt="Ảnh 3">
+    </div>
+    <h1>Cẩm nang kỹ năng thuyết trình trước đám đông</h1>
+  </section>
+
+<title>Thụt đầu dòng</title>
+    <style>
+        p {
+            text-indent: 30px; /* Thụt đầu dòng 30px */
+        }
+</style>
+
+  </section>
+  <main>
+    <p style="text-align: center; font-size: 20px;"><b>RÈN LUYỆN KỸ NĂNG THUYẾT TRÌNH TRƯỚC ĐÁM ĐÔNG CHO HỌC SINH</b></p>
+    <p><i><b>Lời tựa</b></i></p>
+    <p style="text-indent: 3em;">Được biên soạn bởi nhóm tác giả:</p>
+    <p style="text-indent: 5em;">1. Hoàng Thị Trang Nhi</p>
+    <p style="text-indent: 5em;">2. Nguyễn Bảo Trâm</p>
+    <p style="text-indent: 5em;">3. Giáo viên hướng dẫn: cô Trần Thị Mỹ Hương</p>
+    <p>Chúng tôi biên soạn cẩm nang này với mục đích giúp các bạn vượt qua nỗi sợ thuyết trình!</p>
+    <p>Trong xu hướng đổi mới giáo dục, kỹ năng thuyết trình đang trở thành một yêu cầu không thể thiếu. Sự chuyển đổi từ phương pháp dạy học truyền thống sang phương pháp lấy người học làm trung tâm đã tạo điều kiện để học sinh rèn luyện kỹ năng này ngay từ khi còn ngồi trên ghế nhà trường. Thuyết trình không chỉ giúp học sinh tự tin thể hiện bản thân, củng cố kiến thức mà còn rèn luyện khả năng giao tiếp, tư duy logic và sáng tạo. Đây là những phẩm chất quan trọng để thành công trong học tập, công việc và cuộc sống. Việc thường xuyên đứng trước lớp trình bày bài đã trở thành một hoạt động quen thuộc, giúp học sinh tự tin hơn khi giao tiếp và thuyết phục người khác. Kỹ năng thuyết trình không chỉ hữu ích trong môi trường học đường mà còn là một lợi thế lớn khi bước vào đời.</p>
+    <p style="font-size: 20px;">I. <b>MỘT SỐ KHÁI NIỆM</b></p>
+    <p><b>1.1 THUYẾT TRÌNH LÀ GÌ?</b></p>
+    <p>Thuyết trình, xét về bản chất, là một hình thức giao tiếp đặc biệt, nơi mà một cá nhân hoặc một nhóm người truyền đạt thông tin, ý tưởng hoặc quan điểm đến một đối tượng khán giả cụ thể. Đó không chỉ đơn thuần là việc nói trước đám đông mà còn là một quá trình tương tác phức tạp, đòi hỏi người trình bày phải có sự chuẩn bị kỹ lưỡng và khả năng kết nối hiệu quả với khán giả.</p>
+    <p>Một bài thuyết trình thành công không chỉ phụ thuộc vào nội dung thông tin mà còn cách thức trình bày. Người thuyết trình cần lựa chọn ngôn ngữ phù hợp, sử dụng các phương tiện hỗ trợ trực quan như slide, video, đồ thị để minh họa cho ý tưởng của mình. Bên cạnh đó, việc xây dựng một cấu trúc bài thuyết trình logic, rõ ràng cũng rất quan trọng. Một bài thuyết trình hay thường có một mở đầu hấp dẫn, một phần thân bài trình bày chi tiết các ý chính và một phần kết luận tổng kết lại vấn đề.</p>
+    <p>Thuyết trình không chỉ là một kỹ năng cần thiết trong môi trường học thuật và công sở mà còn được ứng dụng rộng rãi trong cuộc sống hàng ngày. Khi chúng ta chia sẻ ý kiến cá nhân trong một cuộc họp, thuyết trình một dự án tại lớp học, hay thậm chí là giới thiệu bản thân trong một buổi phỏng vấn, chúng ta đều đang thực hiện một hình thức thuyết trình.</p>
+    <p><b>1.2. KỸ NĂNG VÀ KỸ NĂNG THUYẾT TRÌNH LÀ GÌ?</b></p>
+    <p>Có nhiều cách định nghĩa khác nhau về kỹ năng. Những định nghĩa này thường bắt nguồn từ góc nhìn chuyên môn và quan niệm cá nhân của từng người. Tuy nhiên, chúng ta đều thừa nhận rằng kỹ năng được hình thành khi chúng ta áp dụng kiến thức vào thực tiễn. Kỹ năng học được do quá trình lặp di lặp lại một hoặc một nhóm hành động nhất định nào đó. Kỹ năng luôn có chủ đích và định hướng rõ ràng.</p>
+    <p>Như vậy, kỹ năng là năng lực (khả năng) của chủ thể thực hiện thuần thục một hay một chuỗi hành động trên cơ sở hiểu biết (kiến thức hoặc kinh nghiệm) nhầm tạo ra kết quat mong đợi.</p>
+    <p>Kỹ năng thuyết trình là một tổng hòa các yếu tố, bao gồm kiến thức chuyên môn, thái độ tự tin, sự khéo léo trong việc sử dụng ngôn ngữ, và khả năng ứng biến linh hoạt. Khi thuyết trình, người nói không chỉ đơn thuần truyền đạt thông tin mà còn phải tạo ra một sự kết nối với khán giả. Điều này đòi hỏi họ phải có khả năng làm cho nội dung trở nên hấp dẫn, dễ hiểu và đáng nhớ.</p>
+    <p>Thái độ tự tin là yếu tố quan trọng hàng đầu trong thuyết trình. Một người thuyết trình tự tin sẽ dễ dàng thu hút sự chú ý của khán giả và truyền đạt thông tin một cách hiệu quả hơn. Bên cạnh đó, việc sử dụng ngôn ngữ một cách chính xác, rõ ràng và sinh động cũng góp phần làm tăng sức hấp dẫn của bài thuyết trình. Ngoài ra, việc sử dụng các phương tiện hỗ trợ như slide, video, đồ thị cũng là một cách hiệu quả để minh họa cho nội dung và giúp khán giả dễ dàng hình dung ra những gì người nói muốn truyền đạt.</p>
+    <p>Một người thuyết trình giỏi không chỉ có kiến thức sâu rộng về chủ đề mà còn phải có khả năng ứng biến linh hoạt trước những câu hỏi và tình huống bất ngờ. Điều này đòi hỏi họ phải luôn chuẩn bị sẵn sàng và có một cái đầu lạnh để xử lý mọi tình huống.</p>
+    <p>Kỹ năng thuyết trình không chỉ là một phần của quá trình học tập mà còn là một yếu tố quan trọng góp phần hình thành nhân cách. Qua việc thuyết trình, học sinh không chỉ rèn luyện khả năng giao tiếp, tư duy logic mà còn phát triển sự tự tin, khả năng làm việc nhóm và tinh thần trách nhiệm. Đây là những phẩm chất cần thiết để mỗi học sinh trở thành những công dân toàn cầu. Chính vì vậy chúng ta cần rèn luyện kỹ năng thuyết trình hằng ngày, không chỉ vì bản thân mà còn vì xã hội và thế giới!</p>
+    <img src="4.jpg" alt="Hình ảnh lớp học">
+    <p><b>- Cơ hội việc làm tốt: </b>Khi có kỹ năng thuyết trình tốt, bạn sẽ dễ dàng truyền tải các ý tưởng, kế hoạch, mục tiêu cũng như khả năng của bản thân tốt hơn. Điều này giúp bạn để lại ấn tượng tốt với những người bạn gặp trong công việc. Ví dụ như trong quá trình phỏng vấn, nếu bạn có khả năng thuyết trình rành mạch, logic, bạn sẽ trở thành một ứng viên nổi bật và tiềm năng. Ngoài ra, khả năng thuyết trình sẽ giúp bạn dễ dàng trao đổi với đồng nghiệp, khách hàng hơn, mang tới hiệu quả công việc cao hơn.</p>
+    <p><b>- Xây dựng được hình ảnh thương hiệu cá nhân: </b>Một có kỹ năng thuyết trình tốt thường sẽ gây ấn tượng với những người xung quanh. Họ thường được đánh giá là chuyên nghiệp, tự tin, hiểu biết và bản lĩnh. Đặc biệt, nếu bạn tạo dựng được phong cách thuyết trình của riêng mình, đó sẽ trở thành một yếu tố nhận diện, một thương hiệu cá nhân, giúp bạn trở nên nổi bật và đặc biệt hơn trong đám đông.</p>
+    <p><b>- Phát triển thêm nhiều mối quan hệ: </b>Sự tự tin và kỹ năng thuyết trình của bạn sẽ là điểm hấp dẫn các mối quan hệ quan trọng, thú vị. Sự độc đáo và rành mạch trong việc trình bày quan điểm bản thân sẽ giúp bạn được tin tưởng, có sức hút và làm nảy sinh hứng thú muốn kết nối từ những người xung quanh.</p>
+    <p><b>- Có thêm sự tự tin: </b>Những người có kỹ năng thuyết trình tốt chắc chắn sẽ trang bị đầy đủ sự tự tin, dám nghĩ và dám thể hiện quan điểm trước đám đông. Đây là lợi thế rất lớn mà bạn có được so với những người không có kỹ năng thuyết trình tốt. Nếu đã quen với việc thuyết trình, bạn sẽ tự tin đối diện với vấn đề tốt hơn, khả năng phản ứng với thử thách nhanh nhẹn, nhạy bén hơn. Một khi bạn đã làm tốt việc thuyết trình, sự tự hào về bản thân sẽ nâng cao, càng ngày càng trở nên chuyên nghiệp hơn.</p>
+    <p><b>II.NHỮNG CÁCH CẢI THIỆN KỸ NĂNG THUYẾT TÌNH HIỆU QUẢ</b></p>
+    <p><b>1. Chú ý đến việc kết nối với khán giả</b></p>
+    <p>Khi bắt đầu thuyết trình, bạn nên thể hiện rằng bạn quan tâm tới khán giả bằng một số câu hỏi tương tác thú vị trước khi thuyết trình. Đừng vội vã thể hiện thuyết trình ngay, đừng nói liền một mạch như thể sợ sẽ quên bài. Bạn nên bắt đầu bài thuyết trình bằng các câu hỏi đơn giản, “có hoặc không” và khán giả chỉ cần giơ tay nếu trả lời là “có”. Như thế, việc kết nối với khán giả sẽ thuận lợi và tốt hơn rất nhiều</p>
+    <p>.</p>
+    <p><b>2. Kiểm soát tone giọng và tốc độ khi thuyết trình</b></p>
+    <p>Một lỗi phổ biến khi thuyết trình mà đôi khi chính người thuyết trình không nhận ra đó là: nói quá nhanh khi hồi hộp, nói quá lớn, lên giọng không đúng trọng tâm ở những câu không phải câu hỏi hay chèn quá nhiều từ “ừm”, “ờ”… Điều này sẽ gây khó chịu và ác cảm đối với người nghe. Cho dù bài thuyết trình của bạn có nội dung hay nhưng lời nói của bạn khó nghe thì cũng sẽ không có nhiều tác dụng.</p>
+    <p>Bạn nên tập trước và thu âm giọng nói của mình ở nhà, nghe lại giọng của mình và chỉnh sửa tốt nhất có thể.</p>
+    <p>Khi đứng trước đám đông, Hãy giảm tốc độ nói ở mức vừa phải sẽ giúp bạn nói trơn tru hơn, dễ hiểu hơn. Với tốc độ vừa phải sẽ giúp người nghe thấy dễ chịu và có cảm tình hơn. Bạn cũng sẽ ko bị hụt hơi giữa chừng. Bạn nên chú ý hạ thấp tone giọng ở câu cuối. Lời nói của bạn sẽ thuyết phục hơn khi bạn dùng giọng trầm.</p>
+    <p><b>3. Luôn nghĩ mình là người thuyết trình tốt</b></p>
+    <p>Hãy giả vờ rằng bạn có thể  thuyết trình tốt đến khi bạn thực sự làm được điều đó. Đây là một phương pháp tự “thôi miên” bản thân rằng, bạn là người thuyết trình giỏi, khán giả sẽ say mê bài giảng của bạn. Nhiều nghiên cứu chứng minh rằng, phương pháp này không có nhiều tác dụng trong việc làm giảm căng thẳng nhưng nó làm tâm trạng bạn phấn khích và có năng lượng hơn. Bạn có thể thay đổi trạng thái bằng cách ưỡn thẳng lưng, hơi đưa vai ra sau, hít thở sâu, bạn sẽ cảm thấy mình hoàn toàn thoải mái và tự tin.</p>
+    <p><b>4. Luôn tận dụng cơ hội mọi lúc, mọi nơi</b></p>
+    <p>Không phải ai cũng có thể tự nhiên thuyết trình hay hoặc giỏi ngay được. Kỹ năng thuyết trình tốt là cả một quá trình nỗ lực, tự rèn luyện bản thân mình. Để tự tin trong giao tiếp, bạn nên tận dụng tất cả các cơ hội để có thể được nói, hay có thể chủ động tạo ra chủ đề hay quan điểm của bản thân mình.</p>
+    <p><b>5. Chuẩn bị bài thuyết trình thật kỹ lưỡng</b></p>
+    <p>Việc bạn chuẩn bị bài thuyết trình thật kỹ lưỡng sẽ giúp bạn giảm thiểu 75% cảm giác run sợ khi đứng trước đám đông. Do đó, bạn nên đầu tư thời gian vào bài diễn thuyết của mình. Bạn hãy ghi âm những gì mình nói, sau đó nghe lại để xem bài thuyết trình của bạn còn phần nào chưa ổn, phần nào quan trọng cần thêm thông tin và phần nào cần lược bỏ bớt đi.</p>
+    <p>Hoặc bạn cũng có thể nhờ bạn bè lắng nghe, và nhận xét bài thuyết trình của mình sẽ giúp ích cho bạn rất nhiều trong việc rèn luyện kỹ năng thuyết trình. Việc nâng cao khả năng thuyết trình trước đám đông này không phải ngày 1 ngày 2 có thể giỏi ngay được mà cần có thời gian luyện tập, rèn luyện và trau dồi.</p>
+    <p><b>6. Thả lỏng cơ thể</b></p>
+    <p>Trong mỗi buổi thuyết trình, việc bạn điều chỉnh được cơ thể cứng ngắc của mình khi đứng trước đám đông có thể xem là một thành công của bài thuyết trình hôm đó rồi. Việc điều chỉnh được cơ thể sẽ giúp bạn tự tin hơn, thoải mái hơn khi trình bày bài nói. Hãy hít thở thật sâu, rồi thả lỏng cơ thể hoặc có thể uống một tách trà để điều chỉnh tâm trạng của mình nhé.</p>
+    <p><b>7. Thích nghi tích cực với nỗi sợ hãi</b></p>
+    <p>Thay vì gồng mình lên để chống lại nỗi sợ hãi trước đám đông thì bạn hãy chủ động thích nghi tích cực với nó. Bất kỳ ai cũng sẽ có những cảm giác sợ hãi khi thuyết trình lúc đầu. Sau khi đã ổn định tinh thần, quen với nỗi sợ đó, bạn nên hít thở sâu, lấy lại bình tĩnh biến nỗi sợ thành sức mạnh, năng lượng để tiếp tục tới cuối bài thuyết trình của mình.</p>
+    <p><b>8. Quan sát và học hỏi</b></p>
+    <p>Bạn có thể quan sát và học hỏi những người có khả năng thuyết trình trước đám đông từ phong thái cho tới cách họ trình bày, biểu cảm trên gương mặt… Bạn sẽ tích luỹ được kha khá kinh nghiệm cho những bài thuyết trình của mình sau này.</p>
+    <p><b>9. Luôn nghĩ rằng bạn đang nói chuyện với bạn bè</b></p>
+    <p>Rất nhiều bạn thường trong tình trang nói rất nhiều trước mặt bạn bè, nhưng lại bị vấp khi nói trước đám đông. Hãy tưởng tượng những khán giả ngồi nghe bạn thuyết trình ở phía dưới là bạn bè, người thân của bạn. Họ chỉ nghe những thông tin mà bạn truyền đạt và không hề đáng sợ như mình tưởng. Tất cả là do tâm lý của bạn mà thôi. Chính vì thế, bạn hãy cố tỏ ra tự tin để chiếm được tình cảm ban đầu của người nghe.</p>
+    <p><b>10. Không nên cố gắng ghi nhớ chính xác từng từ một</b></p>
+    <p>Bạn đừng cố gắng học thuộc và ghi nhớ chính xác từng từ bài thuyết trình. Khi nói, bạn chỉ cần nắm rõ nội dung theo từng ý và mục đích truyền tải thông tin của bạn là gì sau đó trình bày theo lối diễn đạt của bản thân mình là được. Việc học thuộc từng câu từng chữ sẽ chỉ khiến bạn thêm lo lắng và hồi hộp vì phải cố nhớ tất cả mọi thứ.</p>
+    <p>Việc rèn luyện kỹ năng thuyết trình đòi hỏi cả một quá trình dài, không phải muốn giỏi là giỏi được ngay. Bạn cần kiên trì, có tinh thần học hỏi, trau dồi và cầu tiến. Hy vọng với những chia sẻ trên, đại học Công Nghệ Đông Á  đã một phần giúp các bạn có định hướng tốt cho cho các bài thuyết trình của mình trong thời gian học tập…</p>
+    <p>Nếu có bất kỳ phản hồi hay góp ý, vui lòng liên hệ với địa chỉ email: </p>
+    <p style="text-align: center;">hoangthitrangnhi2042@gmail.com</p>
+    <p style="text-align: center;">Ngbaotram2602@gmail.com</p>
+    <img src="1.jpg" alt="Hình ảnh lớp học">
+
+  </main>
+  <footer>
+    <p>&copy; 2025 - Website kỹ năng thuyết trình | </p>
+    <p>Liên hệ: Ngbaotram2602@gmail.com hoặc hoangthitrangnhi2042@gmail.com</p>
+  </footer>
+  <div class="sidebar">
+    <a href="mailto:Ngbaotram2602@gmail.com">📞</a>
+    <a href="#">💬</a>
+    <a href="mailto:hoangthitrangnhi2042@gmail.com">✉️</a>
+    <a href="#">📍</a>
+  </div>
+</body>
+</html>
